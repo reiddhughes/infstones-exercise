@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "infstones-exercise"
+version = "0.1.0"
+description = ""
+authors = ["Reid Hughes <20050642+reiddhughes@users.noreply.github.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [{include = "infstones_exercise"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
