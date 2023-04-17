@@ -2,11 +2,8 @@
 
 version: '3'
 
-vars:
-  GREETING: Hello, World!
-
 tasks:
-  default:
+  install:
     cmds:
-      - echo "{{.GREETING}}"
+      - poetry install
     silent: true

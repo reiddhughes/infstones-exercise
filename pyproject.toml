@@ -9,6 +9,7 @@ packages = [{include = "infstones_exercise"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+psutil = "^5.9.5"
 
 
 [build-system]
